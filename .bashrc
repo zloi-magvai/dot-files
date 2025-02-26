@@ -35,6 +35,7 @@ shopt -s checkwinsize
 shopt -s histappend
 shopt -s checkjobs
 shopt -s cmdhist
+shopt -s autocd
 
 ### PS[0-4] and PROMT_COMMAND ###
 PS1='\[\e[0;33m\]$(git_branch)\[\e[m\]\[\e[0;32m\][\u@\H]\[\e[m\]-\[\e[0;34m\][\w]\[\e[m\] \[\e[0;90m\]\D{%d:%b:%Y-%H:%M:%S} \n\[\e[1;32m\]::: \[\e[m\]'
